@@ -8,19 +8,20 @@ public class Main {
         String resultOfConcat = conca("hello ", 10);
         System.out.println("result of my first concat: " + resultOfConcat);
 
-        String[] inputArrayOne = {"uno", "due", "tre", "quattro", "cinque" };
+        String[] inputArrayOne = {"uno", "due", "tre", "quattro", "cinque"};
         String nuovaStringa = "nuovaStringa";
         System.out.println("la mia stringa base è");
         for (int i = 0; i < inputArrayOne.length; i++) {
             System.out.println(inputArrayOne[i]);
         }
 
-String[] theOne = inserisciInArray(inputArrayOne, nuovaStringa);
-System.out.println("la mia stringa inserisciInArray è");
-for (int i = 0 ; i < theOne.length; i++){
-    System.out.println(theOne[i]);
-}
+        String[] theOne = inserisciInArray(inputArrayOne, nuovaStringa);
+        System.out.println("la mia stringa inserisciInArray è");
+        for (int i = 0; i < theOne.length; i++) {
+            System.out.println(theOne[i]);
+        }
     }
+
     public static String[] inserisciInArray(String[] inputArrayOne, String nuovaStringa) {
         String[] newArray = new String[6];
         newArray[2] = nuovaStringa;

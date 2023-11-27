@@ -11,9 +11,9 @@ public class Main2 {
         System.out.println("Le parole inserite nel loro ordine inverso sono: " + tre + " " + " " + due + " " + uno);
         String result = uno + " " + due + " " + tre;
         String[] newArr = result.split(" ");
-        for ( int i = newArr.length - 1; i>=0 ; i --){
+        for (int i = newArr.length - 1; i >= 0; i--) {
             System.out.println(newArr[i]);
         }
-scanner.close();
+        scanner.close();
     }
 }
